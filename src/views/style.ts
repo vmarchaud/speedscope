@@ -6,8 +6,9 @@ export enum FontFamily {
 
 export enum FontSize {
   LABEL = 10,
-  TITLE = 12,
+  TITLE = 18,
   BIG_BUTTON = 36,
+  TOOLBAR_TAB = 16,
 }
 
 export enum Colors {
@@ -29,9 +30,9 @@ export enum Sizes {
   DETAIL_VIEW_HEIGHT = 150,
   TOOLTIP_WIDTH_MAX = 300,
   TOOLTIP_HEIGHT_MAX = 80,
-  SEPARATOR_HEIGHT = 2,
+  SEPARATOR_HEIGHT = 0,
   FRAME_HEIGHT = 20,
-  TOOLBAR_HEIGHT = 20,
+  TOOLBAR_HEIGHT = 25,
   TOOLBAR_TAB_HEIGHT = TOOLBAR_HEIGHT - SEPARATOR_HEIGHT,
 }
 

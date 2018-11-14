@@ -272,7 +272,7 @@ const style = StyleSheet.create({
   },
   tableView: {
     width: '100%',
-    fontSize: FontSize.LABEL,
+    fontSize: FontSize.LABEL * 1.4,
     background: Colors.WHITE,
   },
   tableHeader: {

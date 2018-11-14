@@ -87,20 +87,21 @@ const style = StyleSheet.create({
   flamechartLabelParent: {
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'flex-end',
-    alignItems: 'flex-start',
+    justifyContent: 'center',
+    alignItems: 'center',
     fontSize: FontSize.TITLE,
     width: FontSize.TITLE * 1.2,
+
     borderRight: `1px solid ${Colors.LIGHT_GRAY}`,
   },
   flamechartLabelParentBottom: {
-    justifyContent: 'flex-start',
+    justifyContent: 'center',
   },
   flamechartLabel: {
     transform: 'rotate(-90deg)',
     transformOrigin: '50% 50% 0',
-    width: FontSize.TITLE * 1.2,
     flexShrink: 1,
+    fontSize: FontSize.TITLE,
   },
   flamechartLabelBottom: {
     transform: 'rotate(-90deg)',
